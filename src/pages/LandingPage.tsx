@@ -13,6 +13,7 @@ import { Testimonials } from "../components/Testimonials/Testimonials"
 import ContactForm from "../components/contacts/ContactForm"
 //nzube
 import TeamSection from "../components/MyTeam/TeamSection"
+import PartnersAndSponsors from "../components/Collab/PartnersAndSponsors"
 
 export const LandingPage = () => {
     return (
@@ -31,6 +32,7 @@ export const LandingPage = () => {
 
 
                 {/* <Partners and Sponsors  (Akpamgbo)/> */}
+                <PartnersAndSponsors />
 
                 {/* <Initiatives (Akpamgbo)/> */}
 

@@ -27,24 +27,24 @@ const ContactSection: React.FC = () => {
   };
 
   return (
-    <section className="w-full max-w-7xl mx-auto rounded-xl bg-white py-10  mb-10">
-      <div className="flex flex-col md:flex-row gap-10">
+    <section className="w-full max-w-7xl mx-auto rounded-xl bg-white py-16  mb-3 px-6">
+      <div className="flex flex-col md:flex-row justify-between">
         {/* Left – contact details */}
         <div className="md:w-5/12 w-full flex flex-col gap-6 md:text-start text-center">
           <div>
-            <h2 className="text-3xl font-bold mb-10">Contact</h2>
-            <p className="mt-3 text-sm text-gray-700 max-w-[44ch]">
+            <h2 className="text-3xl font-bold mb-5">Contact</h2>
+            <p className="mt-3 text-2/3xl text-gray-700 max-w-[44ch] mb-3">
               Wanna Say Hello or Ask a Question- Let’s Talk!
             </p>
           </div>
 
-          <div className="flex flex-col gap-4 md:items-start items-center">
+          <div className="flex flex-col gap-4 md:items-start items-center text-2/3xl">
             <InfoItem icon={<FiMail />} text="hello@thepivot.ng" />
             <InfoItem icon={<FiPhone />} text="+234 816 408 2120" />
           </div>
 
-          <div className="flex flex-col gap-2 md:items-start items-center">
-            <p className="text-sm font-semibold text-gray-800 flex items-center gap-2">
+          <div className="flex flex-col gap-2 md:items-start items-center mt-5 ">
+            <p className="text-3/2xl font-semibold text-gray-800 flex items-center gap-2">
              <span> <FaGlobe/> </span> Follow us on social:
             </p>
             <SocialIcons />
@@ -52,7 +52,7 @@ const ContactSection: React.FC = () => {
         </div>
 
         {/* Right – form */}
-        <div className="md:w-7/12 w-full">
+        <div className="md:w-5/13 w-full">
           <form className="flex flex-col gap-6" onSubmit={handleSubmit}>
             <Input
               id="name"
@@ -62,6 +62,7 @@ const ContactSection: React.FC = () => {
               value={formData.name}
               onChange={handleChange}
               required
+              
             />
             <Input
               id="email"

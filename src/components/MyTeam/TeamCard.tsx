@@ -18,7 +18,7 @@ const TeamCard: React.FC<TeamCardProps> = ({ name, role, description, image, isF
                     >
                               {/* Image Section */}
                               <div
-                                        className={`flex justify-center items-center ${isFounderRole ? "h-[70%]" : "h-[50%]"
+                                        className={`flex justify-center items-center ${isFounderRole ? "h-[70%]" : "h-[50%] "
                                                   }`}
                               >
                                         <img
@@ -33,7 +33,7 @@ const TeamCard: React.FC<TeamCardProps> = ({ name, role, description, image, isF
                               <div className="flex-1 p-3 text-center">
                                         <h3 className="text-xl font-semibold leading-tight">{name}</h3>
                                         <p className="text-xl text-orange-500 font-medium">{role}</p>
-                                        <p className="text-gray-600 text-sm line-clamp-2">{description}</p>
+                                        <p className="text-gray-600 text-sm">{description}</p>
                               </div>
                     </div>
           );
