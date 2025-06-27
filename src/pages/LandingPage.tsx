@@ -11,6 +11,8 @@ import { RolePlay } from "../components/RoleToPlay/RolePlay"
 import { Stories } from "../components/Stories/Stories"
 import { Testimonials } from "../components/Testimonials/Testimonials"
 import ContactForm from "../components/contacts/ContactForm"
+//nzube
+import TeamSection from "../components/MyTeam/TeamSection"
 
 export const LandingPage = () => {
     return (
@@ -25,6 +27,8 @@ export const LandingPage = () => {
                 {/* <Explore The Pivot Conference → (Ezinne)/> */}
 
                 {/* <Meet the Team (Akpamgbo)/> */}
+                <TeamSection />
+
 
                 {/* <Partners and Sponsors  (Akpamgbo)/> */}
 
