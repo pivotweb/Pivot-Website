@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Edition25 } from "../components/Edition25/Edition25"
 import { ContainerWrapper } from "../components/Global/Global"
 import { Hero } from "../components/Hero/Hero"
@@ -55,3 +56,15 @@ export const LandingPage = () => {
         </>
     )
 }
+=======
+import { ContainerWrapper } from "../components/Global/Global";
+import Initiatives from "../components/Initiatives/Initiatives";
+
+export const LandingPage = () => {
+  return (
+    <ContainerWrapper>
+      <Initiatives />
+    </ContainerWrapper>
+  );
+};
+>>>>>>> 775d4de4f744ed62149d67c87cfcf19561f7b950
