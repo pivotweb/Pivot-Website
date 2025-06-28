@@ -251,6 +251,12 @@ section {
   .explore-content-item2 {
     padding: 15px;
   }
+  .explore-content-left p,
+  .explore-content-item p,
+  .explore-content-item2 p{
+    font-size: 14px;
+    margin-bottom: 35px;
+  }
   
   .explore-content-item {
     margin-bottom: 15px;
