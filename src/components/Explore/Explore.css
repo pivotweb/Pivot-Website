@@ -1,6 +1,6 @@
 /* Section Wrapper */
 section {
-  padding: 60px 20px;
+  padding: 20px 20px;
   background-color: #ffffff;
   justify-content: center;
 }
@@ -155,7 +155,7 @@ section {
 /* Large Desktop Styles */
 @media (min-width: 1024px) {
   section {
-    padding: 100px 40px;
+    padding: 30px 10px;
   }
   
   .explore-main {
