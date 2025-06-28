@@ -13,7 +13,6 @@ const TeamCard: React.FC<TeamCardProps> = ({
   role,
   description,
   image,
-  isFounder,
 }) => {
   const isFounderRole = role === "Founder";
 
