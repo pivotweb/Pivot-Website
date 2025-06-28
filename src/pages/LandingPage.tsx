@@ -1,16 +1,12 @@
-import { Edition25 } from "../components/Edition25/Edition25"
 import { ContainerWrapper } from "../components/Global/Global"
-import { Hero } from "../components/Hero/Hero"
-import { Hustlers } from "../components/hustlers/Hustlers"
-import { Header } from "../components/Navigation/Header"
-import { Numbers } from "../components/Numbers/Numbers"
 import Footer from '../components/Footer/Footer'
-import Support from "../components/Support/Support"
-import { Pivot24 } from "../components/Pivot24/Pivot24"
-import { RolePlay } from "../components/RoleToPlay/RolePlay"
-import { Stories } from "../components/Stories/Stories"
-import { Testimonials } from "../components/Testimonials/Testimonials"
 import ContactForm from "../components/contacts/ContactForm"
+import { Header } from "../components/Navigation/Header"
+import { BlogPress } from "../components/Blog/Press"
+import { JoinMovement } from "../components/JoinMovement/Join"
+import { MediaGallery } from "../components/Media/Media"
+import { Footprint } from "../components/Footprint/Footprint"
+import { Realpeople } from "../components/Realpeople/RealPeople"
 
 export const LandingPage = () => {
     return (
@@ -31,14 +27,19 @@ export const LandingPage = () => {
                 {/* <Initiatives (Akpamgbo)/> */}
 
                 {/* <Real People. Real Progress. (BIO)/> */}
+                <Realpeople />
 
                 {/* <Our Footprint So Far (BIO)/> */}
+                <Footprint />
 
                 {/* <Media & Gallery (BIO)/> */}
+                <MediaGallery />
 
                 {/* Join the Movement. (BIO)*/}
+                <JoinMovement />
 
                 {/* Blog & Press (BIO)*/}
+                <BlogPress />
 
                 {/* <Contact Us /> */}
                 <ContactForm />

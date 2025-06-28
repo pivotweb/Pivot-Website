@@ -1,0 +1,52 @@
+
+.hero-bg {
+    width: 30%;
+    min-height: 280px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: end;
+    margin-bottom: 20px;
+    position: relative;
+    border-radius: 20px;
+    background:
+        linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.893) 0%,       /* Strong orange at top */
+            rgba(70, 25, 3, 0.6) 10%,      /* Still strong */
+            rgba(240, 102, 33, 0.4) 25%,      /* Fading starts */
+            rgba(240, 102, 33, 0.2) 35%,      /* Almost gone */
+            rgba(240, 102, 33, 0.1) 50%,      /* Fully transparent to white */
+            rgba(240, 102, 33, 0.08) 65%,      /* Fully transparent to white */
+            rgba(240, 102, 33, 0.06) 75%,      /* Fully transparent to white */
+            rgba(240, 102, 33, 0.04) 75%,     /* Fully transparent to white */
+            rgba(240, 102, 33, 0.02) 85%      /* Fully transparent to white */
+        ),
+        url("/images/hero.png") center center no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .hero-bg {
+        width: 100%;
+        padding: 30px 20px;
+        min-height: 40vh;
+        background:
+        linear-gradient(
+            0deg,
+            rgba(54, 21, 4, 0.893) 0%,       /* Strong orange at top */
+            rgba(133, 52, 11, 0.6) 10%,      /* Still strong */
+            rgba(240, 102, 33, 0.6) 25%,      /* Fading starts */
+            rgba(240, 102, 33, 0.4) 35%,      /* Almost gone */
+            rgba(240, 102, 33, 0.1) 50%,      /* Fully transparent to white */
+            rgba(240, 102, 33, 0.08) 65%,      /* Fully transparent to white */
+            rgba(240, 102, 33, 0.06) 75%,      /* Fully transparent to white */
+            rgba(240, 102, 33, 0.04) 75%,     /* Fully transparent to white */
+            rgba(240, 102, 33, 0.02) 85%      /* Fully transparent to white */
+        ),
+        url("/images/hero.png") center center no-repeat;
+    }
+}
