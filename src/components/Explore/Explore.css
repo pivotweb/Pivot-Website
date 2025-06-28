@@ -1,0 +1,268 @@
+/* Section Wrapper */
+/* section {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  justify-content: center;
+} */
+
+/* Container */
+.explore-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Heading Row */
+.explore-main {
+  text-align: center;
+  margin-bottom: 40px;
+  background-color: #FCE0D3;
+  padding: 30px;
+  border-radius: 7px;
+}
+
+.explore-main h2 {
+  font-size: clamp(16px, 3vw, 18px);
+  font-weight: 500;
+  color: #000;
+  margin: 0;
+}
+
+/* Content Wrapper */
+.explore-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Left - Our Story */
+.explore-content-left {
+  background-color: #ffffff;
+  padding: 30px;
+  text-align: center;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+}
+
+.explore-content-left h1 {
+  font-size: clamp(22px, 4vw, 26px);
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #000;
+}
+
+.explore-content-left p {
+  font-size: clamp(16px, 2.5vw, 18px);
+  font-weight: 470;
+  color: #000;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+/* Right - Mission & Vision Cards */
+.explore-content-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+/* Mission Card */
+.explore-content-item {
+  background-color: #141414;
+  color: #ffffff;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  flex: 1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}
+
+.explore-content-item h1,
+.explore-content-item p {
+  color: #ffffff;
+}
+
+/* Vision Card */
+.explore-content-item2 {
+  background-color: #F06621;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  flex: 1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+
+.explore-content-item2 h1,
+.explore-content-item2 p {
+  color: #ffffff;
+}
+
+/* Common styles for both mission & vision */
+.explore-content-item h1,
+.explore-content-item2 h1 {
+  font-size: clamp(22px, 4vw, 26px);
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.explore-content-item p,
+.explore-content-item2 p {
+  font-size: clamp(16px, 2.5vw, 18px);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Tablet and Desktop Styles */
+@media (min-width: 768px) {
+  /* section {
+    padding: 80px 30px;
+  } */
+  
+  .explore-main {
+    padding: 40px;
+    margin-bottom: 80px;
+  }
+  
+  .explore-content {
+    flex-direction: row;
+    gap: 50px;
+  }
+  
+  .explore-content-left {
+    width: 50%;
+  }
+  
+  .explore-content-right {
+    width: 50%;
+    gap: 30px;
+  }
+  
+  .explore-content-item {
+    margin-bottom: 0;
+  }
+}
+
+/* Large Desktop Styles */
+@media (min-width: 1024px) {
+  /* section {
+    padding: 100px 40px;
+  } */
+  
+  .explore-main {
+    padding: 50px;
+    margin-bottom: 100px;
+  }
+  
+  .explore-content {
+    gap: 60px;
+  }
+  
+  .explore-content-left,
+  .explore-content-item,
+  .explore-content-item2 {
+    padding: 40px;
+  }
+  
+  .explore-content-right {
+    gap: 40px;
+  }
+}
+
+/* Extra Large Desktop Styles */
+@media (min-width: 1400px) {
+  .explore-container {
+    max-width: 1400px;
+  }
+  
+  .explore-main h2 {
+    font-size: 20px;
+  }
+  
+  .explore-content-left h1,
+  .explore-content-item h1,
+  .explore-content-item2 h1 {
+    font-size: 30px;
+  }
+  
+  .explore-content-left p,
+  .explore-content-item p,
+  .explore-content-item2 p {
+    font-size: 20px;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 480px) {
+  /* section {
+    padding: 40px 15px;
+  }
+   */
+  .explore-main {
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .explore-content {
+    gap: 30px;
+  }
+  
+  .explore-content-left,
+  .explore-content-item,
+  .explore-content-item2 {
+    padding: 20px;
+  }
+  
+  .explore-content-item {
+    margin-bottom: 20px;
+  }
+  
+  .explore-content-right {
+    gap: 20px;
+  }
+}
+
+/* Very Small Mobile Styles */
+@media (max-width: 320px) {
+  /* section {
+    padding: 30px 10px;
+  } */
+  
+  .explore-main {
+    padding: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .explore-content {
+    gap: 20px;
+  }
+  
+  .explore-content-left,
+  .explore-content-item,
+  .explore-content-item2 {
+    padding: 15px;
+  }
+  
+  .explore-content-item {
+    margin-bottom: 15px;
+  }
+  
+  .explore-content-right {
+    gap: 15px;
+  }
+  
+  .explore-content-left h1,
+  .explore-content-item h1,
+  .explore-content-item2 h1 {
+    margin-bottom: 12px;
+  }
+}

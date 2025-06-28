@@ -1,12 +1,15 @@
 import { ContainerWrapper } from "../components/Global/Global"
 import Footer from '../components/Footer/Footer'
+import { Hero } from "../components/Hero/Hero"
+import Explore from '../components/Explore/Explore'
+import CoreValue from '../components/CoreValue/Value'
 import ContactForm from "../components/contacts/ContactForm"
 import { Header } from "../components/Navigation/Header"
 import { BlogPress } from "../components/Blog/Press"
 import { JoinMovement } from "../components/JoinMovement/Join"
 import { MediaGallery } from "../components/Media/Media"
 import { Footprint } from "../components/Footprint/Footprint"
-import { Realpeople } from "../components/Realpeople/RealPeople"
+// import { Realpeople } from "../components/Realpeople/RealPeople"
 
 export const LandingPage = () => {
     return (
@@ -16,9 +19,14 @@ export const LandingPage = () => {
                 {/* <Navigation /> */}
                 <Header />
 
-                {/* <Hero (Ezinne)/> */} 
+                {/* <Hero (Ezinne)/>  */}
+                <Hero />
                 
                 {/* <Explore The Pivot Conference → (Ezinne)/> */}
+                <Explore />
+
+                {/* Core Value (Ezinne)*/}
+                <CoreValue />
 
                 {/* <Meet the Team (Akpamgbo)/> */}
 

@@ -1,6 +1,6 @@
 export const Footprint = () => {
   return (
-    <section className="py-15 bg-black text-white text-center ">
+    <section className="py-10 my-15 bg-black text-white text-center ">
         <h1 className="text-[#F06621] text-2xl">Our Footprint So Far</h1>
         <main className="mt-15">
             <article className="w-[80%] text-center text-[#F06621] space-y-10 mb:w-full md:flex m-auto md:space-y-0">
