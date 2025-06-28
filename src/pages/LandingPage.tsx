@@ -27,7 +27,7 @@ export const LandingPage = () => {
                 {/* <Initiatives (Akpamgbo)/> */}
 
                 {/* <Real People. Real Progress. (BIO)/> */}
-                <Realpeople />
+                {/* <Realpeople /> */}
 
                 {/* <Our Footprint So Far (BIO)/> */}
                 <Footprint />
