@@ -4,11 +4,14 @@ import { Hero } from "../components/Hero/Hero"
 import Explore from '../components/Explore/Explore'
 import CoreValue from '../components/CoreValue/Value'
 import ContactForm from "../components/contacts/ContactForm"
+import Initiatives from "../components/Initiatives/Initiatives";
+import TeamSection from "../components/MyTeam/TeamSection"
 import { Header } from "../components/Navigation/Header"
 import { BlogPress } from "../components/Blog/Press"
 import { JoinMovement } from "../components/JoinMovement/Join"
 import { MediaGallery } from "../components/Media/Media"
 import { Footprint } from "../components/Footprint/Footprint"
+import PartnersAndSponsors from "../components/Collab/PartnersAndSponsors"
 // import { Realpeople } from "../components/Realpeople/RealPeople"
 
 export const LandingPage = () => {
@@ -29,13 +32,13 @@ export const LandingPage = () => {
                 <CoreValue />
 
                 {/* <Meet the Team (Akpamgbo)/> */}
+                <TeamSection />
 
                 {/* <Partners and Sponsors  (Akpamgbo)/> */}
+                <PartnersAndSponsors />
 
                 {/* <Initiatives (Akpamgbo)/> */}
-
-                {/* <Real People. Real Progress. (BIO)/> */}
-                {/* <Realpeople /> */}
+                <Initiatives />
 
                 {/* <Our Footprint So Far (BIO)/> */}
                 <Footprint />

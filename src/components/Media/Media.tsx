@@ -1,7 +1,7 @@
 export const MediaGallery
  = () => {
     return (
-        <section className="my-15 text-center">
+        <section className="my-25 text-center">
             <h1 className="text-3xl font-bold">Media & Gallery</h1>
             <main className="my-15 flex flex-col gap-3">
                 <div className="flex flex-col md:flex-row gap-8 w-full">
