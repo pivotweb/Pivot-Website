@@ -1,5 +1,5 @@
 // import Button from "../ui/Button"
-import HeroPic from '../../../public/images/HeroPic.png'
+import HeroPic from '/images/HeroPic.png'
 import "./Hero.css"
 
 export const Hero = () => {

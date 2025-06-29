@@ -1,9 +1,9 @@
 /* Section Wrapper */
 section {
-  padding: 20px 20px;
+  padding: 60px 20px;
   background-color: #ffffff;
   justify-content: center;
-}
+} */
 
 /* Container */
 .explore-container {
@@ -16,7 +16,7 @@ section {
 .explore-main {
   text-align: center;
   margin-bottom: 40px;
-  background-color: #ffc1a2d7;
+  background-color: #FCE0D3;
   padding: 30px;
   border-radius: 7px;
 }
@@ -124,9 +124,9 @@ section {
 
 /* Tablet and Desktop Styles */
 @media (min-width: 768px) {
-  section {
+  /* section {
     padding: 80px 30px;
-  }
+  } */
   
   .explore-main {
     padding: 40px;
@@ -155,7 +155,7 @@ section {
 /* Large Desktop Styles */
 @media (min-width: 1024px) {
   section {
-    padding: 30px 10px;
+    padding: 100px 40px;
   }
   
   .explore-main {
@@ -203,10 +203,10 @@ section {
 
 /* Mobile Styles */
 @media (max-width: 480px) {
-  section {
+  /* section {
     padding: 40px 15px;
   }
-  
+   */
   .explore-main {
     padding: 20px;
     margin-bottom: 40px;
@@ -233,9 +233,9 @@ section {
 
 /* Very Small Mobile Styles */
 @media (max-width: 320px) {
-  section {
+  /* section {
     padding: 30px 10px;
-  }
+  } */
   
   .explore-main {
     padding: 15px;
