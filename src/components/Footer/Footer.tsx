@@ -16,9 +16,9 @@ const SCROLL_POS: Record<string, number> = {
   About: 1.33,
   "2025 Edition": 2.98,
   "2024 Recap": 4.79,
-  "Get Involved": 6.67,
-  Gallery: 7.4,
-  Contact: 10.2,
+  "Get Involved": 11.2,
+  Gallery: 9.79,
+  Contact: 14.78,
 };
 
 const Footer = () => {
