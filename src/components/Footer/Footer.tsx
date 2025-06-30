@@ -16,9 +16,9 @@ const SCROLL_POS: Record<string, number> = {
   About: 1.33,
   "2025 Edition": 2.98,
   "2024 Recap": 4.79,
-  "Get Involved": 11.2,
-  Gallery: 9.79,
-  Contact: 14.78,
+  "Get Involved": 6.67,
+  Gallery: 7.4,
+  Contact: 10.2,
 };
 
 const Footer = () => {
@@ -80,10 +80,13 @@ const Footer = () => {
     const success = await subscribeToNewsletter(email);
 
     if (success) {
-      setSuccessMessage('You’ve successfully subscribed! Please check your inbox.');
-    } else {
-      setSuccessMessage('Oops! Something went wrong. Please try again.');
-    }
+  setSuccessMessage('You’ve successfully subscribed! Please check your inbox.');
+  setErrorMessage('');
+} else {
+  setErrorMessage('Oops! Something went wrong. Please try again.');
+  setSuccessMessage('');
+}
+
 
     // Reset form state
     setEmail('');
