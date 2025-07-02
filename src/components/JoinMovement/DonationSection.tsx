@@ -22,6 +22,7 @@ const DonateSection = () => (
       title="Donate"
       style="bg-[#F06621] hover:bg-[#F6A37A] px-15 py-4"
       link="https://docs.google.com/forms/d/e/1FAIpQLSc51CdFXa605Vsxpu-CuqaJ-OKsPfMoO9jh16QafdH7r6JiNQ/viewform?usp=header"
+      newTab
     />
   </article>
 );

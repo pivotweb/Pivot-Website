@@ -17,6 +17,7 @@ const VolunteerCard = ({ title, description, link, buttonTitle, icon }: Voluntee
       title={buttonTitle}
       style="bg-[#F06621] hover:bg-[#F6A37A] px-6 mt-8 py-4 "
       link={link}
+      newTab
     />
   </article>
 );
