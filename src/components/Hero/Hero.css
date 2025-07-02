@@ -20,13 +20,15 @@
 
 .Main-hero-context {
   /* flex: 1; */
+  width: 50%;
   min-width: 300px;
 }
 
+
 .Main-hero-context h1 {
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 700;
-  line-height: 1.4;
+  line-height: 1.05;
   color: #000000;
 }
 
@@ -39,7 +41,7 @@
   font-size: 18px;
   font-weight: 500;
   color: #000000;
-  margin: 20px 0;
+  margin: 30px 0;
   line-height: 1.5;
 }
 
@@ -47,6 +49,7 @@
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+  /* margin-top: 20px; */
 }
 
 .Main-hero-input input {

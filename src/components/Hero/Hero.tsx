@@ -65,12 +65,12 @@ export const Hero = () => {
       <div className="main-hero-container">
         <div className="Main-hero-context">
           <h1>
-            Rethinking Our <span>Collective <br /> Existence.</span> Rebuilding Africa <br /> from Within.
+            Rethinking Our <span>Collective Existence.</span> Rebuilding Africa from Within.
           </h1>
           <p>
-            The Pivot is a civic-inspired movement designed to <br />
-            spark bold conversations, spotlight real solutions, and <br />
-            nurture the change-makers leading Africa’s <br />
+            The Pivot is a civic-inspired movement designed to 
+            spark bold conversations, spotlight real solutions, and 
+            nurture the change-makers leading Africa’s
             transformation.
           </p>
 

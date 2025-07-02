@@ -40,7 +40,7 @@
 /* Left - Our Story */
 .explore-content-left {
   background-color: #ffffff;
-  padding: 30px;
+  padding: 60px 30px;
   text-align: center;
   width: 100%;
   border-radius: 10px;
@@ -249,7 +249,7 @@
   .explore-content-left,
   .explore-content-item,
   .explore-content-item2 {
-    padding: 15px;
+    padding: 30px 15px;
   }
   
   .explore-content-item {
