@@ -211,6 +211,23 @@
     padding: 20px;
     margin-bottom: 40px;
   }
+
+  .explore-main h2 {
+    padding: 16px 3px; /* Add padding inside the pink background area */
+  }
+
+ .explore-main h2 {
+    padding: 14px 10px; /* Slightly less padding for very small screens */
+  }
+  
+  .explore-main h2 span {
+    display: block; /* Each span becomes a block element, creating line breaks */
+    margin-bottom: 4px; /* Small space between lines */
+  }
+  
+  .explore-main h2 span:last-child {
+    margin-bottom: 0; /* Remove margin from last span */
+  }
   
   .explore-content {
     gap: 30px;
@@ -236,6 +253,19 @@
   /* section {
     padding: 30px 10px;
   } */
+
+.explore-main h2 {
+    padding: 14px 0px; /* Slightly less padding for very small screens */
+  }
+  
+  .explore-main h2 span {
+    display: block; /* Each span becomes a block element, creating line breaks */
+    margin-bottom: 4px; /* Small space between lines */
+  }
+  
+  .explore-main h2 span:last-child {
+    margin-bottom: 0; /* Remove margin from last span */
+  }
   
   .explore-main {
     padding: 15px;

@@ -5,8 +5,11 @@ const Explore = () => {
   return (
     <section>
         <div className="explore-container">
-            <main className="explore-main">
-                <h2>[ Explore The Pivot Conference → ]   [ Discover The Pivot Challenge → ]</h2>
+            <main className="explore-main">                 
+                <h2>
+                    <span>[ Explore The Pivot Conference → ]</span>
+                    <span>[ Discover The Pivot Challenge → ]</span>
+                </h2>             
             </main>
 
             <div className="explore-content">

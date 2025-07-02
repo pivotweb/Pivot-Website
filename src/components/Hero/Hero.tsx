@@ -84,6 +84,7 @@ export const Hero = () => {
               disabled={isLoading}
               aria-label="Email input"
               className="input-email"
+              required
             />
             <button
               onClick={handleJoin}

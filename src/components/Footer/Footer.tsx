@@ -13,11 +13,10 @@ import Logo from '/images/logo2.jpeg';
 // Scroll positions for smooth navigation
 const SCROLL_POS: Record<string, number> = {
   Home: 0,
-  About: 1,
-  "2025 Edition": 2.98,
-  "2024 Recap": 4.79,
-  "Get Involved": 8.47,
-  Gallery: 7.5,
+  About: 1.18,
+  Gallery: 7.32,
+  "Get Involved": 8.27,
+  Blog: 9.3,
   Contact: 11.23,
 };
 
