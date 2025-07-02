@@ -14,14 +14,14 @@ const volunteerInfo: VolunteerCardProps[] = [{
         icon: <ShakeHandsIcon width={50} height={50} color="#F06621" />,
         title: "Partner and Sponsor",
         description:"Let’s co-create impact and build shared value for your brand.",
-        link: "",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSc51CdFXa605Vsxpu-CuqaJ-OKsPfMoO9jh16QafdH7r6JiNQ/viewform?usp=header",
         buttonTitle: 'Partner with us'
     },
     {
         icon: <CommunityIcon width={50} height={50} color="#F06621" />,
         title: "Join Our Community",
         description:"Be part of the conversation via WhatsApp, Telegram, or our newsletter.",
-        link: "",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSfIV4CldW6oH1BxaJUzeHEGuxNe-N7ekMFAZY9rkyg_y0n_dg/viewform?usp=header",
         buttonTitle: 'Join us'
     }
 ];

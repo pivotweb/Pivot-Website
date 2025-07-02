@@ -13,13 +13,13 @@ export default function Initiatives() {
         <AccordionItem
           title="The Pivot Conference"
           content="Where big ideas meet real action. Our annual flagship gathering every October 1st brings together thought leaders, policymakers, entrepreneurs, and citizens to debate, challenge, and co-create solutions."
-          link="#"
+          link="https://thepivot.ng"
           index={1}
         />
         <AccordionItem
           title="The Pivot Challenge"
           content="Our annual idea-to-impact competition for young changemakers solving tough social problems with bold ideas."
-          link="#"
+          link="https://challenge.thepivot.ng"
           index={2}
         />
       </div>
@@ -56,6 +56,7 @@ export default function Initiatives() {
             quote="The conference gave us the courage to challenge local leadership—respectfully, boldly, and with facts."
             author="Kingsley Nwankwo, Youth Advocate, Ebonyi"
             imageUrl="/images/story2.jpg"
+            
           />
         </div>
       </div>

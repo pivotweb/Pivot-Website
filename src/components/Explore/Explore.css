@@ -3,7 +3,7 @@
   padding: 60px 20px;
   background-color: #ffffff;
   justify-content: center;
-} */
+} */ 
 
 /* Container */
 .explore-container {
@@ -40,7 +40,7 @@
 /* Left - Our Story */
 .explore-content-left {
   background-color: #ffffff;
-  padding: 30px;
+  padding: 60px 30px;
   text-align: center;
   width: 100%;
   border-radius: 10px;
@@ -211,6 +211,23 @@
     padding: 20px;
     margin-bottom: 40px;
   }
+
+  .explore-main h2 {
+    padding: 16px 3px; /* Add padding inside the pink background area */
+  }
+
+ .explore-main h2 {
+    padding: 14px 10px; /* Slightly less padding for very small screens */
+  }
+  
+  .explore-main h2 span {
+    display: block; /* Each span becomes a block element, creating line breaks */
+    margin-bottom: 4px; /* Small space between lines */
+  }
+  
+  .explore-main h2 span:last-child {
+    margin-bottom: 0; /* Remove margin from last span */
+  }
   
   .explore-content {
     gap: 30px;
@@ -236,6 +253,19 @@
   /* section {
     padding: 30px 10px;
   } */
+
+.explore-main h2 {
+    padding: 14px 0px; /* Slightly less padding for very small screens */
+  }
+  
+  .explore-main h2 span {
+    display: block; /* Each span becomes a block element, creating line breaks */
+    margin-bottom: 4px; /* Small space between lines */
+  }
+  
+  .explore-main h2 span:last-child {
+    margin-bottom: 0; /* Remove margin from last span */
+  }
   
   .explore-main {
     padding: 15px;
@@ -249,7 +279,13 @@
   .explore-content-left,
   .explore-content-item,
   .explore-content-item2 {
-    padding: 15px;
+    padding: 30px 15px;
+  }
+  .explore-content-left p,
+  .explore-content-item p,
+  .explore-content-item2 p{
+    font-size: 14px;
+    margin-bottom: 35px;
   }
   
   .explore-content-item {
