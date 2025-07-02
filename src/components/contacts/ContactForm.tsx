@@ -57,7 +57,7 @@ const ContactSection: React.FC = () => {
       // const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
       // const apiUrl = proxyUrl + 'https://pivot-9x7i.onrender.com/api/contact';
 
-      const response = await axios.post('https://pivot-oc3v.onrender.com/api/newsletter', formData, {
+      const response = await axios.post('https://pivot-oc3v.onrender.com/api/contact', formData, {
         headers: {
           'Content-Type': 'application/json',
         },
