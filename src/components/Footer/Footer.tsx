@@ -13,12 +13,11 @@ import Logo from '/images/logo2.jpeg';
 // Scroll positions for smooth navigation
 const SCROLL_POS: Record<string, number> = {
   Home: 0,
-  About: 1.33,
-  "2025 Edition": 2.98,
-  "2024 Recap": 4.79,
-  "Get Involved": 10.77,
-  Gallery: 9.36,
-  Contact: 14.23,
+  About: 1.18,
+  Gallery: 7.32,
+  "Get Involved": 8.27,
+  Blog: 9.3,
+  Contact: 11.23,
 };
 
 const Footer = () => {
@@ -37,7 +36,7 @@ const Footer = () => {
   // Function to send email to backend API
   const subscribeToNewsletter = async (email: string) => {
     try {
-      const response = await fetch('https://pivot-1.onrender.com/api/email/send-welcome', {
+      const response = await fetch('https://pivot-oc3v.onrender.com/api/newsletter', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

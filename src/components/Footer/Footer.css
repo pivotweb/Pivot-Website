@@ -172,6 +172,7 @@
 
 .footer-sct2 a:hover {
   opacity: 0.8;
+  /* color: #F06621; */
 }
 
 /* Social Media Colors */
@@ -179,16 +180,32 @@
   color: #000;
 }
 
+.footer-sct2 a:hover[aria-label="Facebook"] {
+  color: #F06621;
+}
+
 .footer-sct2 a[aria-label="Instagram"] {
   color: #000;
+}
+
+.footer-sct2 a:hover[aria-label="Instagram"] {
+  color: #F06621;
 }
 
 .footer-sct2 a[aria-label="X (Twitter)"] {
   color: #000;
 }
 
+.footer-sct2 a:hover[aria-label="X Twitter"] {
+  color: #F06621;
+}
+
 .footer-sct2 a[aria-label="YouTube"] {
   color: #000;
+}
+
+.footer-sct2 a:hover[aria-label="YouTube"] {
+  color: #F06621;
 }
 
 .Bottom-footer-context {

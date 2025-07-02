@@ -6,12 +6,11 @@ import { HamburgerIcon } from "../../assets/svg/Icons";
 // Section scroll positions based on viewport height multipliers
 const SCROLL_POS: Record<string, number> = {
     Home: 0,
-    About: 1.2,
-    "2025 Edition": 3,
-    "2024 Recap": 4.85,
-    "Get Involved": 6.75,
+    About: 1.13,
     Gallery: 7.43,
-    Contact: 9.5,
+    "Get Involved": 8.25,
+    Blog: 9.87,
+    Contact: 11.12,
 };
 
 export const Header: React.FC = () => {

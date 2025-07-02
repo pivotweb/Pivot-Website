@@ -231,7 +231,7 @@
 /* Small Mobile */
 @media (max-width: 480px) {
     .core-values-section {
-        padding: 20px 10px;
+        padding: 50px 10px;
     }
     
     .section-title {
